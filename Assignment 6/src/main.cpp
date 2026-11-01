@@ -125,7 +125,7 @@ int main()
         scaleX = 0.8f + 0.4f * sin(time * 2.0f);
 
         // 3. Translation X and Y
-        float moveX = 0.3f * sin(time*0.8f);
+        float moveX = 0.3f * sin(time);
         float moveY = 0.3f * cos(time);
 
         // Transformation Matrix
